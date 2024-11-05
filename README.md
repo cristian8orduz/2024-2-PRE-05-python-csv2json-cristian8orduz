@@ -1,7 +1,5 @@
 # Configuración en MacOS y Linux
 
-## Instalación del ambiante de desarrollo
-
 Ejecute los siguientes comandos en el terminal:
 
 ```bash
@@ -10,17 +8,7 @@ source .venv/bin/activate
 source setup.sh
 ```
 
-## Calificación del laboratorio
-
-Ejecute los siguientes comandos en el terminal:
-
-```bash
-./tests/run.sh
-```
-
 # Configuración en Windows
-
-## Instalación del ambiante de desarrollo
 
 Ejecute los siguientes comandos en el terminal:
 
@@ -30,10 +18,10 @@ python3 -m venv .venv
 setup
 ```
 
-## Calificación del laboratorio
+# Ejecución de pruebas
 
-Ejecute los siguientes comandos en el terminal:
+Ejecute el siguiente comando en el terminal:
 
 ```bash
-tests\run
+pytest
 ```
