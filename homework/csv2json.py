@@ -1,7 +1,7 @@
 
 import csv
 import json
-"""Script para convertir un archivo CSV a JSON"""
+"""Script para convertir un archivo CSV a JSONN"""
 
 from nicegui import ui
 
